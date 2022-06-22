@@ -8,15 +8,15 @@
 #
 # DESCRIPTION
 #
-#	Type: SELF SERVICE POLICY
+#  Type: SELF SERVICE POLICY
 #
 #	This script (built primarily in Apple Script) will allow the user to remove an application
 #	without requiring admin rights.  Only apps in the /Applications folder can be removed.
 #
-#	Script Features:
+#  Script Features:
 #	- Prevent user from deleting any files outside the /Applications folder
-#   - Only ".app" files can be removed from the /Applications folder
-#   - Cannot delete any app that is native to macOS (ex: /System/Applications/Calculator.app)
+#   	- Only ".app" files can be removed from the /Applications folder
+#   	- Cannot delete any app that is native to macOS (ex: /System/Applications/Calculator.app)
 #	- The user cannot delete specific apps required by the organization (ex: security apps)
 #
 # VERSION
