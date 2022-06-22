@@ -8,18 +8,18 @@
 #
 # DESCRIPTION
 #
-#	Type: POLICY 
-#   - This can be ran against all computers or scoped to a specific JAMF group.
+#  Type: POLICY 
+#	- This can be ran against all computers or scoped to a specific JAMF group.
 # 	- Create second policy to handle install (/usr/local/bin/RemoteUpdateManager --action=install)
 #
-#	Features:
-#   - Inform the user which Adobe apps have updates
-#   - The user can choose to install now or wait until the count down timer expires
-#   - All Adobe apps will quit during the install process
-#   - Download and install all available Adobe updates
-#   - When finished the prompts will go away
-#   - If there are no updates available it will not impact the user
-#   - The script will fail (exit 1) if no user is signed in
+#  Features:
+#	- Inform the user which Adobe apps have updates
+#	- The user can choose to install now or wait until the count down timer expires
+#	- All Adobe apps will quit during the install process
+#	- Download and install all available Adobe updates
+#	- When finished the prompts will go away
+#	- If there are no updates available it will not impact the user
+#	- The script will fail (exit 1) if no user is signed in
 #
 # VERSION
 #
