@@ -1,2 +1,2 @@
 # App-Installers
-A collection of scripts to install apps
+scripts to download and install apps
